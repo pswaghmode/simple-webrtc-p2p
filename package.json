@@ -1,0 +1,20 @@
+{
+  "name": "simple-webrtc-p2p",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js",
+    "signalhub": "signalhub listen -p 8080"
+  },
+  "keywords": [],
+  "author": "Prakash Waghamode <waghamodeps@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "budo": "*"
+  },
+  "dependencies": {
+    "signalhub": "*",
+    "webrtc-swarm": "*"
+  }
+}
